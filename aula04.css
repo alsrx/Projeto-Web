@@ -1,0 +1,40 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: "Arial";
+}
+
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /*Largura de um elemento*/
+  width: 800px;
+  /*Centralizando divs/elementos*/
+  margin: 0px auto;
+  padding: 50px;
+}
+
+/*a div conteúdo dentro da div site  */
+.site .conteudo{
+  background-color: ;
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  border-top: solid 2px #ADADAD;
+
+}
+
+.site .topo{
+  font-family:'Arial Black', cursive;
+  text-align: center;
+}
+
+.site .rodape {
+border-top: solid 2px #ADADAD;
+}
+
+/*.site .topo, .topo .rodape - aplica a mesma coisa no dois*/
