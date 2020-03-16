@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+}
+
+
+body{
+  background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /*Largura de um elemento*/
+  width: 800px;
+  /*Centralizando divs/elementos*/
+  margin: 0px auto;
+  padding: 50px;
+}
+
+/*a div conteúdo dentro da div site  */
+.site .conteudo{
+  background-color: ;
+  min-height: 300px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  border-top: solid 2px #ADADAD;
+
+}
+
+.site .topo{
+  font-family:'Arial Black', cursive;
+  text-align: center;
+}
+
+.site .rodape {
+  border-top: solid 2px #ADADAD;
+}
+
+/*.site .topo, .topo .rodape - aplica a mesma coisa no dois*/
+
+.botao{
+  font-size: 15px;
+  /*Remove o "underline" de um link */
+  text-decoration: none;
+  padding: 10px 20px;
+  /* Exibe o link como um bloco em linha */
+  display: inline-block;
+  /* Arredonda a borda dos elementos */
+  border-radius: 20px;
+  color: #000000;
+}
+
+.botao-azul {
+  background-color: #66a3ff;
+  border: solid 1px #4d94ff;
+}
+
+.botao-azul:hover{
+  background-color: #3385ff;
+}
+
+
+.botao-verde {
+  background-color: #66cc66;
+  border: solid 1px #40bf40;
+}
+
+.botao-verde:hover{
+  background-color: #40bf40;
+}
+
+.botao-vermelho {
+  background-color: #ff4d4d;
+  border: solid 1px #ff3333;
+}
+
+.botao-vermelho:hover{
+  background-color:  #ff1a1a;
+}
+
+.menu{
+  background-color: #DADADA;
+  
+}
+
+.menu ul{
+  /*Remove as boinhas da lista*/
+  list-style-type: none;
+}
+
+.menu ul li{
+  /* Mudando os itens em bloco em linha */
+  display: inline-block;
+}
+
+.menu a{
+  text-decoration: none;
+  /*Tranforma os injs em blocos*/
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000000;
+}
+
+.menu a:hover{
+  background-color: #BABABA;
+}
